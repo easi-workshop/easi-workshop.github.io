@@ -1,0 +1,90 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+head-title: EASI 2026
+title: 1st International Workshop on Engineering Autonomous Systems Intelligence (EASI)
+# Description of the Site
+description: held in conjunction with 
+conference: CAiSE 2026
+conference-logo: /assets/images/caise26-logo.png
+conference-url: https://caise26.polimi.it/
+venue: Verona, Italy
+dates: June 8-12, 2026
+# URL of Image of the Site
+site-image: /assets/images/verona.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/verona.jpg
+
+# Name of the organizers
+org-name-1: Sara Pettinari
+org-image-1: /assets/images/Sara.png
+org-affiliation-1: Gran Sasso Science Institute, Italy
+org-email-1: sara.pettinari@gssi.it
+org-website-1: https://sarapettinari.github.io/
+
+org-name-2: Iva Vasic
+org-image-2: /assets/images/Iva.png
+org-affiliation-2: University of Fribourg, Switzerland
+org-email-2: iva.vasic@unifr.ch
+org-website-2: ''
+
+
+org-name-3: Yannis Bertrand
+org-image-3: /assets/images/Yannis.png
+org-affiliation-3: Hasselt University, Belgium
+org-email-3: yannis.bertrand@uhasselt.be
+org-website-3: ''
+
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

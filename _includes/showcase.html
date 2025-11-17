@@ -1,0 +1,32 @@
+<section class="hero is-fullheight has-text-centered" id="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-white is-size-1 has-text-weight-bold">
+        {{site.title}}
+      </h1>
+      <br>
+      <div class="has-text-centered"
+        style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless" style="margin: 0;">
+          {{site.description}}
+        </h3>
+        <a href="{{site.conference-url}}" target="_blank" style="margin-left: 10px;">
+          {% if site.conference-logo %}
+          <img src="{{site.conference-logo}}" alt="{{site.conference}}" style="max-width: 100px; display: block;">
+          {% else %}
+          <h3 class="subtitle is-uppercase has-text-weight-bold is-marginless" style="color: rgb(222, 22, 22)"> {{site.conference}}</h3>
+          {% endif %}
+        </a>
+      </div>
+
+      <br>
+      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+        {{site.venue}} | {{site.dates}}
+      </h3>
+      <hr>
+      <a href="{{site.url}}{{site.baseurl}}/#about"
+        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+      </a>
+    </div>
+  </div>
+</section>
