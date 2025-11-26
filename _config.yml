@@ -34,7 +34,7 @@ org-email-1: sara.pettinari@gssi.it
 org-website-1: https://sarapettinari.github.io/
 
 org-name-2: Iva Vasic
-org-image-2: /assets/images/Iva.png
+org-image-2: /assets/images/Iva.jpg
 org-affiliation-2: University of Fribourg, Switzerland
 org-email-2: iva.vasic@unifr.ch
 org-website-2: ''
@@ -88,3 +88,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
