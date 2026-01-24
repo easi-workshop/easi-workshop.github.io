@@ -363,3 +363,11 @@ a.navbar-item.is-active:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+li {
+  margin-bottom: 10px;
+}
+
+.semi-bold {
+  font-weight: 600; 
+}
