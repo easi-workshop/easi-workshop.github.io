@@ -1,0 +1,122 @@
+<section class="hero is-fullheight has-text-centered has-background-white-ter" id="workshop-program">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-size-2 is-uppercase has-text-weight-bold">
+                Workshop Program </h1> <br><br>
+            <div class="columns is-centered">
+                <div class="column is-12">
+                    <div class="box has-background-white p-6" style="border-radius: 1.25rem;">
+                        <h2 class="title is-size-4 has-text-weight-semibold">June 8</h2>
+                        <style>
+                            #workshop-program .duration-column {
+                                width: 11rem;
+                                min-width: 11rem;
+                                white-space: nowrap;
+                            }
+
+                            #workshop-program .abstract-toggle {
+                                margin-top: 0.75rem;
+                            }
+
+                            #workshop-program .abstract-toggle summary {
+                                display: inline-block;
+                                cursor: pointer;
+                                padding: 0.45rem 0.85rem;
+                                border: 1px solid #dbdbdb;
+                                border-radius: 999px;
+                                background-color: #f5f5f5;
+                                font-size: 0.85rem;
+                                font-weight: 600;
+                                list-style: none;
+                            }
+
+                            #workshop-program .abstract-toggle summary::-webkit-details-marker {
+                                display: none;
+                            }
+
+                            #workshop-program .abstract-toggle[open] summary {
+                                background-color: #ededed;
+                            }
+
+                            #workshop-program .abstract-content {
+                                margin-top: 0.75rem;
+                                text-align: left;
+                                line-height: 1.6;
+                            }
+                        </style>
+                        <div class="table-container">
+                            <table class="table is-fullwidth is-striped is-hoverable">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Session</th>
+                                        <th class="duration-column">Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr> <td colspan="3" style="text-align: center;"> Chair: TBA  </td> </tr>
+                                    <tr>
+                                        <td>14:00-14:05</td>
+                                        <td><strong>Welcome</strong></td>
+                                        <td class="duration-column">5 min</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:05-15:00</td>
+                                        <td>
+                                            <strong>Keynote: </strong> Francesco Leotta, Sapienza Università di Roma (Italy) <br> <p class="presentation-title">TITLE TBA</p>
+                                            <details class="abstract-toggle">
+                                                <summary>see abstract</summary>
+                                                <div class="abstract-content">Abstract coming soon.</div>
+                                            </details>
+                                        </td>
+                                        <td class="duration-column">40 + 15 Q&amp;A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00-15:30</td>
+                                        <td>
+                                            <strong>Paper Presentation: </strong> Ofir Manor, Ortal Lavi, Ahmed M. Elmisery, Igor Podoski, Ewa Seroczynska and Andr&eacute;s Murillo. <br> <p class="presentation-title">Towards a Cyber Threat Operationalization Engine</p>
+                                            <details class="abstract-toggle">
+                                                <summary>see abstract</summary>
+                                                <div class="abstract-content">With new adversarial threats reported every day, it has become imperative to harden existing systems against them as fast as possible. Cyber Threat Intelligence (CTI) reports describe adversarial behaviour in narrative form, but operationalizing these reports into network-specific, executable emulations remains labour-intensive and slow, delaying validation and mitigation. Nevertheless, existing tooling rarely provides a direct path from narrative CTI to runnable, topology-aware emulation artefacts, forcing experts to manually translate reports into environment-specific actions, which delays vulnerability mitigation and exposes organizations to cyber threat actors. We present a work-in-progress Cyber Threat Operationalization Engine that transforms a CTI report into (i) ATT&CK-labelled behaviours, (ii) a network-constrained representation of a feasible attack path derived via logic-based attack-graph reasoning, and (iii) an executable emulation plan instantiated in MITRE CALDERA and executed safely inside an isolated, emulated “CyberTwin” network. Our design leverages established components: ATT\&CK, CALDERA, Multi-host, multi-stage Vulnerability Analysis Language (MulVAL), and Graphical Network Simulator 3 (GNS3) — while using an agentic orchestration layer to connect CTI-derived intent to concrete actions on a specific topology. We focus on the representation and compilation of adversarial behaviour into attack-graph form and discuss practical challenges toward autonomy, including topology uncertainty, and the gap between abstract techniques and runnable emulation artefacts. A case study based on the Cutting Edge campaign was also introduced to demonstrate the feasibility of the proposed framework.</div>
+                                            </details>
+                                        </td>
+                                        <td class="duration-column">20 + 10 Q&amp;A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30-16:00</td>
+                                        <td>Coffee Break</td>
+                                        <td class="duration-column">30 min</td>
+                                    </tr>
+                                    <tr> <td colspan="3" style="text-align: center;"> Chair: TBA  </td> </tr>
+                                    <tr>
+                                        <td>16:00-16:30</td>
+                                        <td>
+                                            <strong>Paper Presentation: </strong> Flavio Corradini, Barbara Re, Lorenzo Rossi, Massimiliano Sampaolo and Mattia Scattu. <br> <p class="presentation-title">Knowledge Graphs as a Semantic Layer for Understanding Robotic Video</p>
+                                            <details class="abstract-toggle">
+                                                <summary>see abstract</summary>
+                                                <div class="abstract-content">Robotic systems are increasingly deployed in industrial environments, where understanding and analyzing their operations is essential for monitoring and optimizing automated processes. Techniques such as process mining offer powerful tools for analyzing operational workflows, but they require structured representations of activities that are difficult to extract from raw sensory data. Among available data sources, video streams capture the temporal evolution of robotic actions, yet interpreting robotic behavior directly from video remains challenging.
+In this paper, we propose the use of knowledge graphs as a semantic layer to support the interpretation of robotic video streams. The proposed approach separates visual perception from semantic reasoning through a modular architecture. A perception module extracts structured observations from video frames, while a knowledge graph encodes domain knowledge about the robotic environment, including objects, states, and possible interactions. This semantic layer supports the reasoning process used to interpret robot actions observed in the video.
+The resulting framework enables the extraction of structured representations of robotic activities from video streams, supporting event-based descriptions of robot behavior that can be used for process analysis.</div>
+                                            </details>
+                                        </td>
+                                        <td class="duration-column">20 + 10 Q&amp;A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30-16:50</td>
+                                        <td>
+                                            <strong>Paper Presentation: </strong> Elena Hoemann, Akshay Anilkumar Girija, Johann Maximilian Christensen, Yannick Kees, Florian Krone, Thomas Liebert, Ryan Mut, Gerald Sauter, Thomas Stefani, Frank K&ouml;ster and Sven Hallerbach. <br> <p class="presentation-title">Towards a Domain-Agnostic Safety-by-Design AI Engineering Pipeline</p>
+                                            <details class="abstract-toggle">
+                                                <summary>see abstract</summary>
+                                                <div class="abstract-content">AI-based applications already revolutionize our everyday lives; however, it remains unclear how to assess their safety given their black-box nature. Certifying them for safety-critical applications is thus still under current research. Therefore, we developed the Safe AI Pipeline (SAIPi) as an example of a safety-by-design approach to the engineering of AI systems. The pipeline contains several tools for data, model, and monitoring design, fulfilling requirements such as data completeness and model accuracy. MNIST is used as an exemplary showcase and proof of concept for developing deep learning models. We completed an entire iteration of the pipeline, which demonstrates how to engineer an AI system in a safe, iterative way. Future work will improve the tool and pipeline and increase the complexity of use cases.</div>
+                                            </details>
+                                        </td>
+                                        <td class="duration-column">15 + 5 Q&amp;A</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

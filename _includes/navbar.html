@@ -24,7 +24,7 @@
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">ABOUT</a>
-                <!-- <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">WORKSHOP PROGRAM</a> -->
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#workshop-program">WORKSHOP PROGRAM</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#important-dates">IMPORTANT DATES</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#paper-submission">PAPER SUBMISSION</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#program-committee">PROGRAM COMMITTEE</a>
@@ -37,10 +37,16 @@
         </div>
     </div>
 </nav>
-<div class="deadline-banner has-text-white has-text-centered">
+
+<!-- Deadline Banner -->
+<!-- <div class="deadline-banner has-text-white has-text-centered">
     <strong style="color: white;">📢 Paper Submission Deadline Extended!</strong>
+</div> -->
+
+<div class="program-banner has-text-white has-text-centered">
+    <strong style="color: white;">📢 Published Workshop Program</strong>
 </div>
-<!-- Bulma Navbar JS -->
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         /* Get all "navbar-burger" elements */
@@ -71,5 +77,16 @@
     font-size: 16px;
     z-index: 30;
     background-color: rgba(222, 22, 22, 0.6);
+}
+
+/* Workshop program banner */
+.program-banner {
+    position: absolute;
+    top: 52px; /* height of Bulma navbar */
+    width: 100%;
+    padding: 8px 0;
+    font-size: 16px;
+    z-index: 30;
+    background-color: rgba(22, 122, 222, 0.6);
 }
 </style>
